@@ -357,8 +357,25 @@ img {
   color: #4e47ff;
 }
 
+/* button-style */
 
+button {
+  background-color: #4e47ff;
+  border: 1px solid #4e47ff;
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 10px;
+  padding: 12px 36px;
+  transition: all 0.3s ease-in-out;
+}
 
-
+button:hover {
+  background-color: #fafafa;
+  color: #4e47ff;
+  border: 1px solid #4e47ff;
+  cursor: pointer;
+}
 
 
